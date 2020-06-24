@@ -1,9 +1,11 @@
+import math
 
-twoPowerThousand = pow(2, 1000)
-twoPowerThousandStr = str(twoPowerThousand)
-digitsSum = 0
-for c in twoPowerThousandStr:
-    if c < '0' or c > '9':
+v = int(math.pow(2, 1000))
+vs = str(v)
+print ("2^1000 = " + vs)
+sum = 0
+for ch in vs:
+    if ch == '.':
         break
-    digitsSum = digitsSum + int(c)
-print digitsSum
+    sum = sum + int(ch)
+print (str(sum))
