@@ -1,4 +1,5 @@
 public class Problem31 {
+	// usage: java Problem31 <arg, eg: 200>
 	static int[] DENOMS = {200,100,50,20,10,5,2,1};
 	public static void main(String[] args) {
 		System.out.println(countPerms(Integer.parseInt(args[0]),0,0,""));
